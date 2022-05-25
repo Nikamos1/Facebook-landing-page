@@ -1,0 +1,129 @@
+body {
+  background-color: #f1f2f6;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin: 8.5% 16% 0 16%;
+  display: flex;
+  padding-right: 3rem;
+}
+
+.static {
+  margin-top: 3rem;
+}
+
+.fb-logo {
+  width: 18.9rem;
+}
+
+h1 {
+  color: #222327;
+  margin: 0 0 0 1.8rem;
+  font-size: 1.7rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.sign-in {
+  text-align: center;
+  width: 35rem;
+  min-height: 100px;
+  margin-left: 4rem;
+  background-color: #ffffff;
+  border-radius: 7.5px;
+  box-sizing: border-box;
+  padding: 1rem;
+  box-shadow: 1px 1px 10px #b4b4b4;
+}
+
+.type {
+  display: block;
+  width: 95%;
+  height: 3rem;
+  margin-bottom: 1rem;
+  border-radius: 7.5px;
+  border: 1px solid #e7e7e7;
+}
+
+.btn {
+  width: 100%;
+  background-color: #1977f3;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+}
+
+input {
+  padding-left: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+h4 {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+  color: #4267b2;
+  margin-bottom: 1.5rem;
+}
+
+hr {
+  margin-bottom: 1.5rem;
+  border: none;
+  border-top: 1px solid #e7e7e7;
+}
+
+.create {
+  width: 50%;
+  margin: auto;
+  background-color: #42b62b;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.create:hover {
+  background-color: #3ca327;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+h4:hover {
+  text-decoration: underline;
+}
+
+::placeholder {
+  color: #929292;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #1977f3;
+}
+
+h5 {
+  display: block;
+  margin-left: 55.5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.page {
+  color: #222327;
+  font-weight: 900;
+}
+
+.page:hover {
+  text-decoration: underline;
+}
